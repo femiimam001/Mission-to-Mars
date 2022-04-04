@@ -36,11 +36,18 @@ Use the DevTools to inspect the page for the proper elements to scrape. You will
 
 ![deliverable_1_image](https://github.com/femiimam001/Mission-to-Mars/blob/main/Resources%20%26%20image/deliverable_1_image.PNG)
 
--In Step 1, use your browser to visit the Mars Hemispheres website to view the hemisphere images.
-Image with Python, MongoDB & HTML Code below.
+3. In Step 1, use your browser to visit the Mars Hemispheres website to view the hemisphere images.
+   Image with Python, MongoDB & HTML Code below.
 
 ## Code and Image
 
 ![del_1_im](https://github.com/femiimam001/Mission-to-Mars/blob/main/Resources%20%26%20image/del_1_im.PNG)
 
 ![del_2_im](https://github.com/femiimam001/Mission-to-Mars/blob/main/Resources%20%26%20image/del_2_im.PNG)
+
+4. Use the DevTools to inspect the page for the proper elements to scrape. You will need to retrieve the full-resolution image for each of Mars's hemispheres.
+   Image with Python & HTML Code below.
+
+## code and image
+
+![del_3_im]()
