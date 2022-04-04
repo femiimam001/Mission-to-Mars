@@ -43,4 +43,4 @@ Image with Python, MongoDB & HTML Code below.
 
 ![del_1_im](https://github.com/femiimam001/Mission-to-Mars/blob/main/Resources%20%26%20image/del_1_im.PNG)
 
-![del_2_im]()
+![del_2_im](https://github.com/femiimam001/Mission-to-Mars/blob/main/Resources%20%26%20image/del_2_im.PNG)
