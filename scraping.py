@@ -100,3 +100,7 @@ browser.quit()
 # Stop webdriver and return data
 browser.quit()
 return data
+
+if __name__== "__main__":
+    # If running as script, print scrapped data
+    print(scrape_all())
