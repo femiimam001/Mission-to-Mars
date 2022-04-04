@@ -50,4 +50,6 @@ Use the DevTools to inspect the page for the proper elements to scrape. You will
 
 ## code and image
 
-![del_3_im]()
+![del_3_im](https://github.com/femiimam001/Mission-to-Mars/blob/main/Resources%20%26%20image/del_3_im.PNG)
+
+![del_4_im]()
