@@ -26,3 +26,11 @@ Make a copy of your Mission_to_Mars.ipynb file, and rename it Mission_to_Mars_Ch
 Download the Mission_to_Mars_Challenge_starter_code.ipynb, copy the starter code, and paste at the end of your Mission_to_Mars_Challenge.ipynb file.
 ​In Step 1, use your browser to visit the Mars Hemispheres website to view the hemisphere images.
 Use the DevTools to inspect the page for the proper elements to scrape. You will need to retrieve the full-resolution image for each of Mars's hemispheres.
+
+# Results:
+
+1. Make a copy of your Mission_to_Mars.ipynb file, and rename it Mission_to_Mars_Challenge.ipynb.
+   Image with Python & HTML Code below.
+
+Code and Image
+![deliverable_1_image]()
