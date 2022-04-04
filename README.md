@@ -15,3 +15,14 @@ In this project,I shall be helping Robin, and we shall be using BeautifulSoup an
 \*Data Tools: Jupyter Notebook, Python and MongoDB
 
 \*Software: MongoDB, Python 3.8.3, Visual Studio Code 1.50.0, Flask Version 1.0.2
+
+# Deliverable 1: Scrape Full-Resolution Mars Hemisphere Images and Titles
+
+## Deliverable Requirements:
+
+Using BeautifulSoup and Splinter, you’ll scrape full-resolution images of Mars’s hemispheres and the titles of those images.
+
+Make a copy of your Mission_to_Mars.ipynb file, and rename it Mission_to_Mars_Challenge.ipynb.
+Download the Mission_to_Mars_Challenge_starter_code.ipynb, copy the starter code, and paste at the end of your Mission_to_Mars_Challenge.ipynb file.
+​In Step 1, use your browser to visit the Mars Hemispheres website to view the hemisphere images.
+Use the DevTools to inspect the page for the proper elements to scrape. You will need to retrieve the full-resolution image for each of Mars's hemispheres.
