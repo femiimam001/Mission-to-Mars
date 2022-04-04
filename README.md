@@ -53,3 +53,5 @@ Use the DevTools to inspect the page for the proper elements to scrape. You will
 ![del_3_im](https://github.com/femiimam001/Mission-to-Mars/blob/main/Resources%20%26%20image/del_3_im.PNG)
 
 ![del_4_im](https://github.com/femiimam001/Mission-to-Mars/blob/main/Resources%20%26%20image/del_4_im.PNG)
+
+![del_im_5]()
