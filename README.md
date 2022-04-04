@@ -33,4 +33,4 @@ Use the DevTools to inspect the page for the proper elements to scrape. You will
    Image with Python & HTML Code below.
 
 Code and Image
-![deliverable_1_image]()
+![deliverable_1_image](https://github.com/femiimam001/Mission-to-Mars/blob/main/Resources%20%26%20image/deliverable_1_image.PNG)
