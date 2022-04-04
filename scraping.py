@@ -28,22 +28,22 @@ def mars_news(browser):
     news_soup = soup(html, 'html.parser')
 
     # Add try/except for error handling
-        try:
+    try:
 
-    slide_elem = news_soup.select_one('div.list_text')
+        slide_elem = news_soup.select_one('div.list_text')
 
-    slide_elem.find('div', class_='content_title')
+        slide_elem.find('div', class_='content_title')
 
     # Use the parent element to find the first a tag and save it as `news_title`
-    news_title = slide_elem.find('div', class_='content_title').get_text()
-    news_title
+        news_title = slide_elem.find('div', class_='content_title').get_text()
+        news_title
 
     # Use the parent element to find the paragraph text
-    news_p = slide_elem.find('div', class_='article_teaser_body').get_text()
-    news_p
+        news_p = slide_elem.find('div', class_='article_teaser_body').get_text()
+        news_p
 
     except AttributeError:
-            return None, None
+        return None, None
 
         return news_title, news_p
 
@@ -51,40 +51,40 @@ def mars_news(browser):
 
 def featured_image(browser):
 # Visit URL
-url = 'https://spaceimages-mars.com'
-browser.visit(url)
+    url = 'https://spaceimages-mars.com'
+    browser.visit(url)
 
 # Find and click the full image button
-full_image_elem = browser.find_by_tag('button')[1]
-full_image_elem.click()
+    full_image_elem = browser.find_by_tag('button')[1]
+    full_image_elem.click()
 
 # Parse the resulting html with soup
-html = browser.html
-img_soup = soup(html, 'html.parser')
+    html = browser.html
+    img_soup = soup(html, 'html.parser')
 
 # Add try/except for error handling
-    try:
+try:
 # find the relative image url
-img_url_rel = img_soup.find('img', class_='fancybox-image').get('src')
-img_url_rel
+    img_url_rel = img_soup.find('img', class_='fancybox-image').get('src')
+    img_url_rel
 
 except AttributeError:
-        return None
+    return None
 # Use the base url to create an absolute url
-img_url = f'https://spaceimages-mars.com/{img_url_rel}'
-return img_url
+    img_url = f'https://spaceimages-mars.com/{img_url_rel}'
+    return img_url
 
 # ## Mars Facts
 def mars_facts():
     # Add try/except for error handling
     try:
-df = pd.read_html('https://galaxyfacts-mars.com')[0]
-df.head()
-except BaseException:
+     df = pd.read_html('https://galaxyfacts-mars.com')[0]
+     df.head()
+    except BaseException:
         return None
    # Assign columns and set index of dataframe     
-df.columns=['Description', 'Mars', 'Earth']
-df.set_index('Description', inplace=True)
+    df.columns=['Description', 'Mars', 'Earth']
+    df.set_index('Description', inplace=True)
 df
 
 # Convert dataframe into HTML format, add bootstrap
@@ -98,5 +98,5 @@ if __name__ == "__main__":
 browser.quit()
 
 # Stop webdriver and return data
-   browser.quit()
-   return data
+browser.quit()
+return data
