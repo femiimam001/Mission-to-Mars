@@ -32,5 +32,13 @@ Use the DevTools to inspect the page for the proper elements to scrape. You will
 1. Make a copy of your Mission_to_Mars.ipynb file, and rename it Mission_to_Mars_Challenge.ipynb.
    Image with Python & HTML Code below.
 
-Code and Image
+## Code and Image
+
 ![deliverable_1_image](https://github.com/femiimam001/Mission-to-Mars/blob/main/Resources%20%26%20image/deliverable_1_image.PNG)
+
+-In Step 1, use your browser to visit the Mars Hemispheres website to view the hemisphere images.
+Image with Python, MongoDB & HTML Code below.
+
+## Code and Image
+
+![del_1_im]()
