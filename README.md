@@ -10,6 +10,8 @@ In this project,I shall be helping Robin, and we shall be using BeautifulSoup an
 
 ## Resources And Tools
 
-*Data Source: Mission_to_Mars.ipynb, app.py, scraping.py and index.html
-*Data Tools: Jupyter Notebook, Python and MongoDB
+\*Data Source: Mission_to_Mars.ipynb, app.py, scraping.py and index.html
+
+\*Data Tools: Jupyter Notebook, Python and MongoDB
+
 \*Software: MongoDB, Python 3.8.3, Visual Studio Code 1.50.0, Flask Version 1.0.2
